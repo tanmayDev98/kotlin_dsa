@@ -1,3 +1,5 @@
+package arrays
+
 fun main() {
     val sol = LongestConsecutiveSolution()
     println(sol.longestConsecutive(intArrayOf(100,2,3,0,1,200,400)))

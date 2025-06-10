@@ -1,3 +1,5 @@
+package strings
+
 fun main() {
     val sol = PartitionSolution()
     println(sol.partitionLabels("ababcbacadefegdehijhklij"))

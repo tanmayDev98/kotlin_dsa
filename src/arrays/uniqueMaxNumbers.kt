@@ -1,4 +1,4 @@
-//find out two max unique elements
+package arrays//find out two max unique elements
 //example: [1,5,2,4,5]
 
 fun main() {
@@ -27,7 +27,7 @@ fun getUniqueMaxElements(input: IntArray) {
     for ((index, value) in input.withIndex()) {
         if (value == firstMax || value == secondMax) {
             output.add(index)
-            if (output.size == 2) break // only need first occurrences
+            if (output.size == 2) break
         }
     }
 
